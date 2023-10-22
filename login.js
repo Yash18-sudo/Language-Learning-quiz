@@ -45,7 +45,7 @@ function register() {
         email: email,
         full_name: full_name,
         last_login: Date.now(),
-        score:21
+        score:0
       }
 
       // Push to Firebase Database
