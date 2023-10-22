@@ -1,0 +1,168 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background: url("https://img.freepik.com/free-vector/office-wallpaper-theme_23-2148650606.jpg?size=626&ext=jpg&ga=GA1.2.737602209.1693648663&semt=ais");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+#content_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+#form_container {
+    width: 40%;
+    /* height: 60%; */
+    min-height: 60%;
+    border: 3px solid #3c8067;
+    background-color: #eec7d5;
+    box-shadow: 0 0 50px -20px #000;
+    border-radius: 2%;
+}
+
+#form_header_container {
+    width: 100%;
+    height: 6%;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+
+    padding: 20px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+    background: #000;
+}
+
+#form_header {
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    color: white;
+
+}
+
+#form_content_container {
+    width: 100%;
+    height: 90%;
+    float: left;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 30px;
+}
+
+#form_content_inner_container {
+    width: 75%;
+    height: 100%;
+
+    float: left;
+}
+
+input {
+    width: 100%;
+    height: 40px;
+
+    padding-left: 10px;
+    margin-bottom: 20px;
+
+    background: #000;
+    font-weight: 500;
+    color: #fff;
+    font-size: 12px;
+
+    border-bottom: 2px solid transparent;
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+    border-color: #3c8067;
+}
+
+#button_container {
+    width: 100%;
+    height: 10%;
+    float: left;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+#blogin,
+#bregister {
+    width: 8rem;
+    height: 3rem;
+    float: left;
+    background: hsl(158, 36%, 37%);
+    border: 2px solid black;
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 900;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 30px;
+    margin-bottom: 25px;
+}
+
+
+/* Media queries to make form responsive on mobiles */
+@media(max-width:980px) {
+    #form_container {
+        min-width: 100%;
+        min-height: 40%;
+    }
+
+    #form_header_container {
+        min-height: 10%;
+    }
+
+    #form_header {
+        font-size: 2rem;
+    }
+
+    #form_content_inner_container {
+        padding-top: 5%;
+        min-width: 90%;
+    }
+
+    input {
+        min-width: 100%;
+        min-height: 8%;
+        height: 60px;
+        font-size: 1.7rem;
+        padding-left: 5%;
+
+    }
+
+    #blogin,
+    #bregister {
+        margin-top: 4%;
+        min-width: 40%;
+        min-height: 100%;
+        height: 80px;
+        font-size: 2rem;
+    }
+}

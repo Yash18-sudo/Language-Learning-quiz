@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz App</title>
+</head>
+<body>
+    <div class="app">
+        <h1>English Learning Quiz</h1>
+        <div class="diff">
+        <h4 >Difficulty:</h4>
+        <h4 id="level"></h4>
+        <p>(Changes based on your performance)</p>
+        </div>
+        <div class="quiz">
+             <h2 id="question">Loading... Please Wait 👍😊</h2> <!-- questionElement -->
+            <div id="answer-buttons"><!-- answerButtons -->
+                <button class="btn">Loading... Please Wait 👍😊</button>
+                <button class="btn">Loading... Please Wait 👍😊</button>
+                <button class="btn">Loading... Please Wait 👍😊</button>
+                <button class="btn">Loading... Please Wait 👍😊</button>
+            </div>
+            <button id="next-btn">Next</button><!-- nextButton -->
+            <button id="play-btn" onclick="refreshPage()">Play Again</button><!-- playButton -->
+        </div>
+    </div>
+    <div class="leaderboard">
+        <h1>Leaderboard</h1>
+        <div class="data">
+            <div class="leaderboard-column">
+                <h3>Name</h3>
+                <ul id="name-list">
+                    <!-- User names will be added here -->
+                </ul>
+            </div>
+            <div class="leaderboard-column">
+                <h3>Score</h3>
+                <ul id="score-list">
+                    <!-- User scores will be added here -->
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+
+    <script src="./self.js"></script>
+    
+</body>
+</html>
