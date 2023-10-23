@@ -111,10 +111,12 @@ html{
     background: #fff;
     width: 25%;
     max-width: 600px;
+    max-height: 400px;
     margin: 100px auto 0;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     padding: 30px;
     text-align: center;
+    overflow:scroll;
 }
 
 .leaderboard h1{
@@ -123,10 +125,14 @@ html{
 
 .data{
     display: flex;
-    gap: 200px;
+    gap: 100px;
 }
 
 ul {
     list-style: none;
     padding: 0;
+}
+
+#name-list{
+    width: 150px;
 }
