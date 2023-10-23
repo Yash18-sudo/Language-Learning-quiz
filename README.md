@@ -4,7 +4,9 @@
 
 <h2>🚀 Demo Link</h2>
 
-[https://grand-pixie-f2115d.netlify.app/](https://grand-pixie-f2115d.netlify.app/)
+[Link-1](https://grand-pixie-f2115d.netlify.app/)
+OR
+[Link-2](https://yash18-sudo.github.io/Language-Learning-quiz/)
 
   
 <h2>💡 Features</h2>
