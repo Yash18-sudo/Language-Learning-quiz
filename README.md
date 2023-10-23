@@ -37,7 +37,7 @@ Here're some of the project's best features:
 <p>1. Clone this repository.</p>
 
 ```
-git clone https://github.com/Yash18-sudo/Meeting-Rooms.git
+git clone https://github.com/Yash18-sudo/Language-Learning-quiz.git
 ```
 
 <h2>💻📱 Usage Steps:</h2>
